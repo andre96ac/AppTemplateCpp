@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\Features">
+      <UniqueIdentifier>{2a451d9a-289e-47e9-a66a-cfee1c652491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Services">
+      <UniqueIdentifier>{d5bbf66c-a1c0-485e-905b-345dac2a5acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\Models">
+      <UniqueIdentifier>{cfc2163a-4a1e-4073-b335-dc0a3362779d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraints.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitFeature.h">
+      <Filter>File di intestazione\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerService.h">
+      <Filter>File di intestazione\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsService.h">
+      <Filter>File di intestazione\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Injector.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="TestService.h">
+      <Filter>File di intestazione\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="TestFeature.h">
+      <Filter>File di intestazione\Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
